@@ -15,18 +15,37 @@ applied to the element specified by the selector. Uncomment
 the block (delete the * and / around it) to see the effects.*/
 
 body{
-	background: #ff9900;
+	background: #C0C0C0;
 }
 
 h1{
-  font-family: Times New Roman, sans-serif;
-  color: #660000
 }
+
+@font-face {
+font-family: 'KBZipaDeeDooDah';
+src: url('assets/fonts/KBZipaDeeDooDah.ttf') format('ttf');
+};
+
+
+ul{
+	font-size: 20px
+}
+
 
 a:hover{
-    color: #ff9900
+    color: #643992;
 }
 
-span:hover{
-    font-size: 30px
+.UnderConstruction {
+ position: absolute;
+ top: 20%;
+ right: 40%;
+ height: 300px
+ weight: 300px
+}
+
+.ConstructionSign{
+	position:absolute;
+	top: 55%;
+	right: 36%;
 }

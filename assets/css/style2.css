@@ -1,0 +1,164 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+  background-image: url("../images/andy-holmes-734162-unsplash.jpg");
+}
+
+@font-face {
+  font-family: KBZipaDeeDooDah;
+  src: url(../fonts/KBZipaDeeDooDah.ttf);
+}
+
+/* .bg-img {
+  max-width: 100%;
+  width: 100vw;
+  z-index: -50;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} */
+
+.main-heading{
+  /* width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px */
+  position: relative;
+  left: 30%;
+  top: 40px;
+}
+
+.main-heading > h1 {
+  color: white;
+  font-family: KBZipaDeeDooDah;
+  font-size: 7rem;
+}
+
+.sub-heading{
+  /* width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  position: relative;
+  top: 25px;
+  left: 500px;
+  /* display: inline-block; */
+}
+
+.sub-heading{
+  color: white;
+  font-family: KBZipaDeeDooDah;
+  font-size: 60px;
+}
+
+.welcome-img{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 300px;
+  height: 300px;
+}
+
+.windows-welcome{
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: 300px;
+  height: 300px;
+}
+
+.earth-gif{
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  width: 300px;
+  height: 300px;
+}
+
+.rect{
+  height: 300px;
+  width: 1000px;
+  background-color: blue;
+  position: absolute;
+  top: 100%;
+  right: 20%;
+  border-style: groove;
+  border-color: gold;
+  border-width: 7px;
+}
+
+.first{
+  position: absolute;
+  color: yellow;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.computer-gif{
+  position: absolute;
+  top: 150%;
+  right: 10%;
+  width: 300px;
+  height: 300px;
+}
+
+.homealone-gif{
+  position: absolute;
+  top: 150%;
+  left: 10%;
+  width: 300px;
+  height: 300px;
+}
+
+.i-have-a-website{
+  position: absolute;
+  top: 190%;
+  right: 10%;
+  width: 600px;
+  height: 600px;
+}
+
+.diana-website{
+  position: absolute;
+  top: 190%;
+  left: 10%;
+  width: 600px;
+  height: 600px;
+}
+
+.example-heading{
+  position: absolute;
+  top: 150%;
+  left: 35%;
+  color: hotpink;
+  font-size: 100px;
+  font-family: KBZipaDeeDooDah;
+  animation: blinker 1.5s linear infinite;
+ }
+@keyframes blinker {
+  100% { opacity: 0; }
+ }
+
+.next-button{
+  position: absolute;
+  top: 265%;
+  right: 5%;
+  color: hotpink;
+  font-size: 100px;
+  font-family: KBZipaDeeDooDah;
+  }
+
+  .back-button{
+    position: absolute;
+    top: 265%;
+    left: 5%;
+    color: hotpink;
+    font-size: 100px;
+    font-family: KBZipaDeeDooDah;
+    }
